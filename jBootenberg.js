@@ -92,7 +92,7 @@ $.fn.jBootenberg = function(p = {}) {
 
     $(this).find('.is-vertically-aligned-bottom').each(function (i,e) {
 
-        if ($(this).is(":not(.align-items-start , .align-items-middle , .align-items-end)") ) {
+        if ($(this).is(":not(.align-items-start , .align-items-center , .align-items-end)") ) {
 
             $(this).addClass('d-flex align-items-end');
 
@@ -102,9 +102,9 @@ $.fn.jBootenberg = function(p = {}) {
 
     $(this).find('.is-vertically-aligned-center').each(function (i,e) {
 
-        if ($(this).is(":not(.align-items-start , .align-items-middle , .align-items-end)") ) {
+        if ($(this).is(":not(.align-items-start , .align-items-center , .align-items-end)") ) {
 
-            $(this).addClass('d-flex align-items-middle');
+            $(this).addClass('d-flex align-items-center');
 
         }
 
